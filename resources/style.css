@@ -1,0 +1,43 @@
+html{
+    margin: 0%;
+    padding: 0%;
+    /*color: green;*/
+    background-color: lavender;
+    font-family: 'Quicksand', sans-serif;
+}
+section{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+}
+ol{
+    margin: auto;
+    width: fit-content;
+    padding: 50px;
+}
+li{
+    padding: 10px;
+    background-color: rgba(42, 54, 63, 0.363);
+    border-radius: 5px;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+li:hover{
+    cursor: pointer;
+    background-color: lightskyblue;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+            transition: ease-in-out, 20ms;
+}
+h1{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    width: fit-content;
+
+}
